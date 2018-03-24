@@ -1,0 +1,329 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>register</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+    <link href="../css/util.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+<!--===============================================================================================-->
+	<style>
+
+.abc{
+  background: #fff;
+  border-radius: 10px;
+  min-height:500px;
+  min-width:500px;
+  padding: 30px 30px 30px 30px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:10px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown1:hover .dropbtn1{
+    background-color: Green;
+}
+
+li.dropdown1{
+    display: inline-block;
+}
+
+.dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown1-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown1-content a:hover {
+background-color: Green;
+}
+.active {
+background-color: white;
+color:black;
+}
+.dropdown1:hover .dropdown1-content {
+    display: block;
+}
+body{
+background-color:#e8f2f4;
+}
+
+body{
+background-color:powder-blue;
+}
+.container-login100{
+background-color:white;
+}
+
+
+table{
+padding:12px;
+height:50px;
+width:50%;
+align:center;
+}.b{
+height:10px;
+width:8%;
+padding:10px;
+margin:5px;
+}
+.a{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+.dropdown2:hover .dropdown2-content{
+display:block;
+}
+.dropdown2-content a{
+color:black;
+padding:12px 16px;
+text-decoration:none;
+display:block;
+text-align:left;
+}
+.dropdown2-content{
+display:none;
+position:absolute;
+background-color:white;
+min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+	}
+li.dropdown2{
+display:inline-block;
+}
+img {
+  border-radius: 50%;
+  align:center-left;
+}
+</style>
+
+</head>
+<body>
+<ul class="a" style="float:right; margin-right:200px;">
+<li class="dropdown2">
+
+<image style="height:40px;float:right;radius:10px; align="center-left";
+ id="profileImage" src="download.jpg" />
+<br/></br/>
+<div class="dropdown2-content">
+<a href="Login.html"><img src="images/door_in.png" alt="Sign out">Log Out</a>
+<a href="#" >View Profile</a>
+</div>
+</li>
+</ul>
+    <div style="clear:both;"></div>
+<div class="a">
+
+</div>
+<div class="limiter">
+	<ul>
+  
+ <li class="dropdown1">
+    <a href="#" class="dropbtn1">Contacts</a>
+    <div class="dropdown1-content">
+      <a href="addcontact.html"> Add Contact</a>
+      <a href="addcontact.html">Edit Contact</a>
+    </div>
+  </li>
+  <li class="dropdown1">
+    <a href="#" class="dropbtn1">Group</a>
+    <div class="dropdown1-content">
+      <a href="addgroup.html"> Add Group</a>
+      <a href="addgroup.html">Edit Group</a>
+      
+          <a href="adding mem to group.html">adding mem to group.html</a>
+    </div>
+  </li>
+  <li class="dropdown1">
+    <a href="email.html" class="dropbtn" class="active">Email</a>
+    
+  </li>
+  <li style="float:right"><a href="#home"> Home</a></li>
+</ul>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+                    <img src="../images/img-01.png" />
+				</div>
+
+				<form class="login100-form validate-form">
+					<span class="login100-form-title">
+						 Enter Member Details
+					</span>
+					<div class="wrap-input100 validate-input" data-validate = "Name is required:">
+						<input class="input100" type="text" name="Fname" placeholder="First Name">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+                    <div class="wrap-input100 validate-input" data-validate = "Name is required:">
+						<input class="input100" type="text" name="Lname" placeholder="Last Name">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Mobile Number is required:">
+						<input class="input100" type="text" name="mobile" placeholder="Mobile Number">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input class="input100" type="password" name="pass" placeholder="Create Password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input class="input100" type="password" name="pass" placeholder="Confirm Password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Register
+						</button>
+					</div>
+
+					
+
+					
+				</form>
+			</div>
+		</div>
+	</div>
+	<div style="border:solid">
+	<div  class="row">
+<div  class="col-sm-4 col-md-2">
+First Name
+</div>
+<div class="col-sm-4 col-md-2">
+Last Name
+</div>
+<div class="col-sm-4 col-md-2">
+ Mobile
+</div>
+<div class="col-sm-4 col-md-2">
+Email
+</div>
+
+</div>	
+
+<div class="row">
+<div class="col-sm-4 col-md-2">
+ Name1
+</div>
+<div class="col-sm-4 col-md-2">
+Name
+</div>
+<div class="col-sm-4 col-md-2">
+ 903392002
+</div>
+<div class="col-sm-4 col-md-2">
+ex@example.com
+</div>
+
+</div>	
+<div class="row">
+<div class="col-sm-4 col-md-2">
+Name2
+</div>
+<div class="col-sm-4 col-md-2">
+ Name
+</div>
+<div class="col-sm-4 col-md-2">
+8988999
+</div>
+<div class="col-sm-4 col-md-2">
+ex@gmm
+</div>
+
+</div>	
+</div>
+	</div>
+	
+	
+	
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+
+    <script src="../js/main.js"></script>
+
+</body>
+</html>

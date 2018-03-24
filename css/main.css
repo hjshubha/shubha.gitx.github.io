@@ -161,22 +161,22 @@ iframe {
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+ // display: -moz-box;
+ // display: -ms-flexbox;
+  //display: flex;
+ // flex-wrap: wrap;
+ justify-content: center;
+ // align-items: center;
   padding: 15px;
-  background: #9053c7;
-  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  background: #e8f2f4;
+  background: -webkit-linear-gradient(-135deg, #e8f2f4);
+  background: -o-linear-gradient(-135deg, #e8f2f4);
+  background: -moz-linear-gradient(-135deg, #e8f2f4);
+  background: linear-gradient(-135deg,#e8f2f4) ;
 }
 
 .wrap-login100 {
-  width: 960px;
+  
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -185,10 +185,10 @@ iframe {
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
+ // display: flex;
+ // flex-wrap: wrap;
   justify-content: space-between;
-  padding: 177px 130px 33px 95px;
+  padding: 50px 30px 30px 30px;
 }
 
 /*------------------------------------------------------------------
@@ -312,12 +312,12 @@ iframe {
 [ Button ]*/
 .container-login100-form-btn {
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
+  //display: -webkit-box;
+  //display: -webkit-flex;
+ // display: -moz-box;
+//  display: -ms-flexbox;
+ // display: flex;
+ // flex-wrap: wrap;
   justify-content: center;
   padding-top: 20px;
 }
@@ -333,10 +333,10 @@ iframe {
   height: 50px;
   border-radius: 25px;
   background: #57b846;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
+//  display: -webkit-box;
+//  display: -webkit-flex;
+  //display: -moz-box;
+  //display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
